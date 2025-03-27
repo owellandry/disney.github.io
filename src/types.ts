@@ -1,5 +1,7 @@
 export interface Project {
   name: string;
+  owner: string;
+  repo: string;
   description: string;
   url: string;
   language: string;
